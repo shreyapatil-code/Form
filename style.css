@@ -1,0 +1,119 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7f8;
+  padding: 20px;
+  margin: 0;
+}
+
+/* Center everything */
+.main-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Form container styling */
+.form-container {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  margin-bottom: 30px;
+}
+
+/* Form heading */
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Logo */
+.form-container img {
+  display: block;
+  margin: 0 auto 20px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+/* Labels */
+label {
+  font-weight: bold;
+  display: block;
+  margin: 10px 0 5px;
+}
+
+/* Inputs, selects, textarea */
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Button styling */
+button {
+  width: 100%;
+  padding: 12px;
+  background: #007bff;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Table styling */
+.table-wrapper {
+  overflow-x: auto; /* scroll horizontally on small screens */
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 14px;
+}
+
+thead {
+  background-color: #007bff;
+  color: white;
+}
+
+thead th {
+  padding: 12px;
+  text-align: left;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e9ecef;
+}
+
+tbody tr:hover {
+  background-color: #d0e2ff;
+}
+
+tbody td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Mobile adjustments */
+@media screen and (max-width: 480px) {
+  input, select, textarea, button {
+    font-size: 14px;
+  }
+
+  .form-container {
+    padding: 15px;
+  }
+
+  table {
+    font-size: 12px;
+  }
+}
